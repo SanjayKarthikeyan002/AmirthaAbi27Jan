@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import weddingSong from '../assets/images/EnMymaPeru.mp3';
+import weddingSong from '../assets/images/EnMymaPeru';
 
 const BackgroundMusic = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -67,7 +67,7 @@ const BackgroundMusic = () => {
   return (
     <>
       <audio ref={audioRef} loop preload="auto" playsInline>
-        <source src={weddingSong} type="audio/mp3" />
+        <source src={} type="audio/mp3" />
       </audio>
 
       <div
