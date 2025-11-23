@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import weddingSong from '../assets/images/EnMymaPeru';
+import weddingSong from '../assets/images/EnMymaPeru.mp3';
 
 const BackgroundMusic = () => {
   const [isPlaying, setIsPlaying] = useState(false);
