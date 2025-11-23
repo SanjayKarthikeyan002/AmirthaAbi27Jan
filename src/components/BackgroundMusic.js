@@ -67,7 +67,7 @@ const BackgroundMusic = () => {
   return (
     <>
       <audio ref={audioRef} loop preload="auto" playsInline>
-        <source src={weddingSong} type="audio/mpeg" />
+        <source src={weddingSong} type="audio/mp3" />
       </audio>
 
       <div
